@@ -1,0 +1,19 @@
+{
+  "default": {
+    "http_folder": "http",
+    "template_folder": "templates/",
+    "structures": [{"name": "/js/main.js", "template":"main_tpl.js"},
+              {"name": "/index.html", "template":"index_tpl.html"},
+              {"name":"/img"}]
+  },
+  "op1": {
+    "http_folder": "xpto",
+    "template_folder": "templates/",
+    "structures": [{"name": "js/main.js", "template":"main_tpl.js"},
+                    {"name": "index.html", "template":"index_tpl.html"},
+                    {"name":"img/"},
+                    {"name":"css/"},
+                    {"name":"assets/"},
+                    {"name": "css/empty.html"}]
+  }
+}
